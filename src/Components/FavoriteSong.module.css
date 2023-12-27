@@ -1,0 +1,63 @@
+.cover{
+    width: 50px;
+    height: auto;
+    padding-right: 12px;
+}
+
+.favoriteSong{
+    width: 270px;
+    padding: 1rem 0.5rem;
+    display: grid;
+    padding: 1.5rem 1rem;
+    gap: 1rem;
+    justify-content: space-between;
+    background-color:#2d3439;
+    border-radius: 7px;
+    /* margin-left: 5.5rem; */
+    margin-bottom: 0.7rem;
+    position: relative;
+}
+
+.songInfo{
+    align-self: center;
+}
+
+.songLink{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.songName, .songArtist{
+    color: pink;
+}
+
+.play{
+    margin-left: 1.7rem;
+    color: pink;
+    padding-right: 17px;
+    align-self: center;
+    position: absolute;
+    right: 0;
+    font-size:2rem;
+}
+
+.remove{
+    color: palevioletred;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 7px;
+    font-size: 2rem;
+}
+
+.favoriteSong--active{
+    border: 1px solid palevioletred;
+}
+
+@media only screen and (max-width: 330px) {
+    .favoriteSong{
+        width: 230px;
+    }
+}
+

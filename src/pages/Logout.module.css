@@ -1,0 +1,41 @@
+.user {
+    position: absolute;
+    top: 1rem;
+    left: 0.8rem;
+    background-color: #42484d;
+    padding : 1rem 0.4rem;
+    margin-left: 2rem;
+    border-radius: 7px;
+    z-index: 999;
+    box-shadow: 0 0.8rem 2.4rem rgba(36, 42, 46, 0.5);
+    font-size: 1.2rem;
+    font-weight: 600;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 190px;
+    max-height: 50px;
+    border: 1px dashed palevioletred;
+  }
+  
+  
+.user button {
+    background-color: #2d3439;
+    border-radius: 7px;
+    border: none;
+    padding: 0.4rem 0.5rem;
+    margin-left: 0.5rem;
+    color: inherit;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.user button:hover{
+    background-color: palevioletred;
+    color: #2d3439;
+}
+  

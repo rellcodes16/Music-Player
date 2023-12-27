@@ -1,0 +1,74 @@
+{
+    "songs":[
+        {
+            "songName": "6AM In Brighton",
+            "songArtist": "ArrDee",
+            "songPath": "../SongFiles/6am_in_brighton.mp3",
+            "songID": 910101,
+            "songCover": "../SongFiles/MusicPics/6AM_in_Brighton.jpg"
+        },
+        {
+            "songName": " Early Hour",
+            "songArtist": "ArrDee",
+            "songPath": "../SongFiles/early_hour.mp3",
+            "songID": 910102,
+            "songCover": "../SongFiles/MusicPics/Early_Hour.jpeg"
+        },
+        {
+            "songName": "Come And Go",
+            "songArtist": "ArrDee",
+            "songPath": "../SongFiles/come_and_go.mp3",
+            "songID": 910103,
+            "songCover": "../SongFiles/MusicPics/Come_and_go.jpg"
+        },
+        {
+            "songName": "Late Night Driving",
+            "songArtist": "ArrDee",
+            "songPath": "../SongFiles/Late_Night_Driving.mp3",
+            "songID": 910104,
+            "songCover": "../SongFiles/MusicPics/Late_Night_Driving.jpg"
+        },
+        {
+            "songName": "Hello Mate",
+            "songArtist": "ArrDee",
+            "songPath": "../SongFiles/Hello_Mate.mp3",
+            "songID": 910105,
+            "songCover": "../SongFiles/MusicPics/Hello_Mate.jpg"
+        },
+        {
+            "songName": "Joker",
+            "songArtist": "Dax",
+            "songPath": "../SongFiles/Dax_-_Joker.mp3",
+            "songID": 910106,
+            "songCover": "../SongFiles/MusicPics/Joker.jpg"
+        },
+        {
+            "songName": "The Next Rap God",
+            "songArtist": "Dax",
+            "songPath": "../SongFiles/Dax_-_The_Next_Rap_God_2.mp3",
+            "songID": 910107,
+            "songCover": "../SongFiles/MusicPics/The_Next_Rap_God.jpg"
+        },
+        {
+            "songName": "PTSD",
+            "songArtist": "Dax",
+            "songPath": "../SongFiles/Dax_-_PTSD.mp3",
+            "songID": 910108,
+            "songCover": "../SongFiles/MusicPics/PTSD.jpg"
+        },
+        {
+            "songName": "Organise",
+            "songArtist": "Asake",
+            "songPath": "../SongFiles/Asake-Organise.mp3",
+            "songID": 910109,
+            "songCover": "../SongFiles/MusicPics/Organize.jpg"
+        },
+        {
+            "songName": "Big Thug Boys",
+            "songArtist": "AV",
+            "songPath": "../SongFiles/Big-Thug-Boys.mp3",
+            "songID": 910110,
+            "songCover": "../SongFiles/MusicPics/BigThug_Boys.jpeg"
+        }
+    ]
+}

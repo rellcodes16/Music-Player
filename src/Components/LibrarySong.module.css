@@ -1,0 +1,73 @@
+.cover{
+    width: 50px;
+    height: auto;
+    padding-right: 12px;
+    padding-top: 3px;
+}
+
+.librarySong{
+    width: 270px;
+    padding: 1.5rem 1rem;
+    display: grid;
+    gap: 1rem;
+    justify-content: space-between;
+    background-color:#2d3439;
+    border-radius: 7px;
+    /* margin-left: 5.5rem; */
+    margin-bottom: 0.7rem;
+    position: relative;
+    overflow-x: hidden;
+    z-index: 2;
+}
+
+.songInfo{
+    align-self: center;
+}
+
+.songLink{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.songName, .songArtist{
+    color: pink;
+}
+
+.play, .pause{
+    margin-left: 1.7rem;
+    color: pink;
+    align-self: center;
+    padding-right: 17px;
+    position: absolute;
+    right: 0;
+    font-size: 2rem;
+}
+
+.librarySong--active{
+    border: 1px solid palevioletred;
+}
+
+.heart{
+    color: palevioletred;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 7px;
+    font-size: 1.8rem;
+}
+
+.filledHeart{
+    color: palevioletred;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 7px;
+    font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 330px) {
+    .librarySong{
+        width: 230px;
+    }
+}

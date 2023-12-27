@@ -1,0 +1,10 @@
+.sidebar {
+    flex: 1;
+    height: 100%;
+    background-color: #42484d;
+    position: relative;
+    border-radius: 7px;
+    padding-bottom: 1rem;
+    overflow-x: hidden;
+}
+

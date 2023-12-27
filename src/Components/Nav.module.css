@@ -1,0 +1,47 @@
+.nav {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: grid;
+    justify-content: center;
+    min-width: 350px;
+}
+  
+.nav ul {
+    list-style: none;
+    display: flex;
+    background-color: pink;
+    border-radius: 7px;
+    width: 270px;
+    justify-content: center;
+}
+  
+.nav a:link,
+.nav a:visited {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+  
+  /* CSS Modules feature */
+.nav a:global(.active) {
+    background-color: palevioletred;
+}
+
+@media only screen and (max-width: 400px) {
+    .nav{
+        margin-left: -27px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .nav{
+        /* margin-left: -40px; */
+        min-width: 180px;
+        margin-right: -20px;
+    }
+}
+  

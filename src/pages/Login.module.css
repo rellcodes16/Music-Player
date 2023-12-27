@@ -1,0 +1,80 @@
+.login {
+    padding: 2.5rem 5rem;
+    background-color: #2d3439;
+    min-height: 100vh;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.form {
+    background-color: #42484d;
+    border-radius: 7px;
+    padding: 2rem 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  
+    /* Different from other form */
+    width: 30rem;
+    margin: 8rem auto;
+    overflow: hidden;
+}
+  
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input{
+    font-size: 1.2rem;
+    padding: 2px;
+}
+
+button{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: palevioletred;
+    color: #2d3439;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #2d3439;
+    color: palevioletred;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .form{
+        width: 20rem;
+        /* margin-left: -50px; */
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 992px) {
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    
+}
+
+
+
+  
